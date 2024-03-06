@@ -1,0 +1,71 @@
+a{
+    color: rgb(54, 229, 235);
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right, #01022d, #000);
+    display: flex;
+    justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.x{
+background-image: linear-gradient(to right,#01022de5 30% ,#00000088),
+url(castle.jpg);
+background-position: center;
+height: 580px;
+width: 100%;
+}
+.x:hover{ background-image: linear-gradient(to right, #01022de5 30%,transparent),
+    url(tree.jpg);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform:uppercase ;
+}
+ul{
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+.y{
+    color:rgba(11, 159, 203, 0.5);
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.y h2{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.y p{
+    letter-spacing: 2px;
+    width: 350px;
+    padding: 20px 0;
+}
+.y button{
+    font-size: 35px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.y button:hover{
+    background-color: transparent;
+    border-color:aqua;
+    color: white;
+
+}
